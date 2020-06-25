@@ -1,0 +1,314 @@
+.first_con {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first_left, .first_right {
+    max-width: 50%;
+    display: flex;
+
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.first_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-left: 50px;
+}
+
+/*
+
+    approval
+
+ */
+
+.approval_con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.approval_con h2 {
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.approval_left, .approval_right {
+    max-width: 45%;
+    width: 100%;
+
+    margin: 50px 0;
+}
+
+.approval_form {
+    margin: 50px auto;
+}
+
+.approval_form button {
+    border-radius: 15px;
+    padding: 20px 30px;
+
+    background-color: #C3E4F3;
+
+    font-weight: bold;
+
+    transition: .2s;
+}
+
+.approval_form button:hover {
+    box-shadow: 15px 15px 4px rgba(0, 0, 0, 0.25);
+}
+
+.approval_label p {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.approval_label input {
+    width: 100%;
+
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+    background-color: rgba(211, 250, 255, 0.8);
+
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.last_label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.last_label input {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0;
+}
+
+.approval_right > div{
+    margin-top: 70px;
+
+    text-align: left;
+}
+
+.approval_right span {
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.approval_right p{
+    margin-bottom: 30px;
+}
+
+/*
+
+    documents
+
+ */
+
+.docs h2 {
+    margin: 50px 0;
+
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.docs p {
+    margin: 50px 0;
+
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.docs_imgs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.docs_imgs div {
+    position: relative;
+    width: 214px;
+    height: 214px;
+
+    border-radius: 50%;
+
+    background-color: #C3E4F3;
+}
+
+.docs_imgs img {
+    position: absolute;
+
+    top: 20%;
+    left: 15%;
+}
+
+.docs_imgs .last_img {
+    top: 19%;
+    left: 27%;
+}
+
+/*
+
+    requirements
+
+ */
+
+.requirements h2 {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.requirements_right, .requirements_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 49%;
+    width: 100%;
+
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px 0;
+
+    background-color: #C3E4F3;
+
+    text-align: left;
+}
+
+.requirements_left {
+    margin-right: auto;
+}
+
+.requirements_left .requirements_content {
+    margin-right: auto;
+}
+
+.requirements_right {
+    margin-left: auto;
+}
+
+.requirements_con {
+    display: flex;
+    justify-content: center;
+}
+
+.requirements_content {
+    margin-left: 20px;
+}
+
+.requirements_content p {
+    margin: 10px auto;
+}
+
+/*
+
+    programms
+
+*/
+
+.programms h2 {
+    margin: 50px 0 100px;
+
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.programms p {
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    font-size: 16px;
+    line-height: 140%;
+}
+
+/*
+
+    work
+
+*/
+
+.work h2 {
+    margin: 50px 0;
+
+    font-size: 48px;
+    line-height: 140%;
+}
+
+.work_p {
+    padding: 50px 0;
+}
+
+.work_con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work_con div {
+    position: relative;
+    width: 370px;
+    height: 170px;
+
+    margin: 0 15px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/arrow.png);
+}
+
+.work_con span {
+    display: block;
+    width: 300px;
+
+    margin: 20px 0;
+
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.work_con p {
+    max-width: 200px;
+
+    margin: 45px 10px 10px;
+
+}
+
+.work_con img{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+/*
+
+    about
+
+*/
+
+.about h2 {
+    margin: 50px 0;
+
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.about p {
+    margin: 20px auto;
+
+    font-size: 16px;
+    line-height: 140%;
+}

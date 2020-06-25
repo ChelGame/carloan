@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <title>Деньги под залог ПТС автомобиля за 30 минут на выгодных для клиента условиях.</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Сайт автоломбарда 'Займ-залог'. Быстро и честно получить деньги под залог ПТС или транспортного средства. Чистые проценты и никаких скрытых комиссий. От 30% до 88% годовых. От 10тысяч до 3миллионов.">
+        <meta name="robots" content="index,follow" />
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link href="css/img/logo.png" rel="icon">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+
+        <script src="js/jq.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+
+    <body class="fwb">
+        <section class="pop_up pop_up_success">
+            <div class="pop_up_con">
+                <h2>Спасибо за заявку</h2>
+
+                <p>Ваша заявка будет рассмотрена в ближайшее время, пожалуйста, дождитесь звонка нашего специалиста</p>
+            </div>
+        </section>
+
+        <section class="pop_up pop_up_error">
+            <div class="pop_up_con">
+                <h2>Упс, неожиданная ошибка</h2>
+
+                <p>Видимо, что-то пошло не так, как должно было пойти. Приносим свои извинения за неудобства. Пожалуйста, повторите попытку позже или напишите нам письмо, адресс: <a href="mailto:zakaz@zaimzalogauto.ru">zakaz@zaimzalogauto.ru</a>. Или вы можете позвонить по телефону, и договориться с нами на прямую, телефон: <a href="tel:89259111075">+7 (925) 911-10-75</a> </p>
+            </div>
+        </section>
+
+        <header id="header" class="header">
+            <section class="header_menu">
+                <h2 class="hide">Навигация по сайту</h2>
+                <div class="fixed-container">
+                    <ul class="menu_list">
+                        <li class="arrow"></li>
+                        <li class="menu_item">
+                            <a href="#header">Главная</a>
+                        </li>
+
+                        <li class="menu_item">
+                            <a href="#approval">Онлайн одобрение</a>
+                        </li>
+
+                        <li class="menu_item">
+                            <a href="#docs">Требования</a>
+                        </li>
+
+                        <li class="menu_item">
+                            <a href="#work">Схема работы</a>
+                        </li>
+
+                        <li class="none_bor menu_item">
+                            <a href="#about">О нас</a>
+                        </li>
+
+                        <li class="none_bor menu_item">
+                            <button class="button" name="#approval">Взять займ</button>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="header_content">
+                <div class="fixed-container content_con">
+                    <div class="content_center">
+                        <h1>Автоломбард в Москве</h1>
+
+                        <h2 class="fwm">Срочно нужны деньги и не знаете к кому обратиться?</h2>
+
+                        <p class="fwn">Автоломбард "Займ залог Авто" деньги под залог ПТС автомобиля за 30 минут на выгодных для клиента условиях.</p>
+
+                        <button class="button" name="#approval">Оставить заявку</button>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <main>
+            <section class="first">
+                <h2 class="hide">Процентная ставка и сумма займа</h2>
+                <div class="fixed-container first_con">
+                    <div class="first_left">
+                        <div>
+                            <img src="css/img/rub.png" alt="">
+                        </div>
+
+                        <div class="first_content">
+                            <p class="col-red">До 3 000 000 руб</p>
+                            <p>ЗА 30 МИНУТ</p>
+                        </div>
+                    </div>
+
+                    <div class="first_right">
+                        <div>
+                            <img src="css/img/per.png" alt="">
+                        </div>
+
+                        <div class="first_content">
+                            <p class="col-red">ставка от 3% в месяц</p>
+                            <p>100% ОДОБРЕНИЯ</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="approval" class="approval">
+                <div class="fixed-container approval_con">
+                    <div class="approval_left">
+                        <h2>Онлайн одобрение</h2>
+
+                        <form class="approval_form" action="php/handler.php" method="post">
+                            <div class="approval_label"> <!-- Это, так то, лейблы, но дивы, потому что валидатор :D -->
+                                <p>Сумма</p>
+                                <input required type="text" name="summ" value="" placeholder="Например: 100 000">
+                            </div>
+
+                            <div class="approval_label">
+                                <p>Срок</p>
+                                <input required type="text" name="time" value="" placeholder="Например: 3 месяца">
+                            </div>
+
+                            <div class="approval_label">
+                                <p>Марка, модель машины</p>
+                                <input required type="text" name="mark" value="" placeholder="Например:  mazda c6">
+                            </div>
+
+                            <div class="approval_label">
+                                <p>Год выпуска</p>
+                                <input required type="text" name="year" value="" placeholder="Например: 2010">
+                            </div>
+
+                            <div class="approval_label">
+                                <p>Имя</p>
+                                <input required type="text" name="name" value="" placeholder="Например: Владимер">
+                            </div>
+
+                            <div class="approval_label">
+                                <p>Телефон</p>
+                                <input required type="text" name="phone" value="" placeholder="Например: 89133954122">
+                            </div>
+
+                            <button id="form_submit" class="mt-50 mb-50" type="button" name="button">Оставить заявку</button>
+                        </form>
+                    </div>
+
+                    <div class="approval_right">
+                        <h2>Нет причин для беспокойства</h2>
+
+                        <div class="">
+                            <p><span class="col-red">01/</span> Без скрытых комиссий и переплат</p>
+
+                            <p><span class="col-red">02/</span> Фиксированный процент</p>
+
+                            <p><span class="col-red">03/</span> Без справок и поручителей</p>
+
+                            <p><span class="col-red">04/</span> Без штрафа за досрочное погашение</p>
+
+                            <p><span class="col-red">05/</span> Индивидуальный подход</p>
+
+                            <p><span class="col-red">06/</span> Рассматриваем любую кредитную историю</p>
+
+                            <p><span class="col-red">07/</span> Автомобиль остается у вас</p>
+
+                            <p><span class="col-red">08/</span> Решение по кредиту не выходя из дома за 30 минут</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="docs" class="docs">
+                <div class="fixed-container">
+                    <h2>Документы для получения займа в автоломбарде</h2>
+
+                    <p class="fwn">Всего 3 документа для получения займа - ПТС, СТС, Ваш Паспорт</p>
+
+                    <div class="docs_imgs">
+                        <div class="">
+                            <img src="css/img/i1.png" alt="">
+                        </div>
+
+                        <div class="">
+                            <img src="css/img/i2.png" alt="">
+                        </div>
+
+                        <div class="">
+                            <img class="last_img" src="css/img/i3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="requirements">
+                <div class="fixed-container">
+                    <h2>Требование ломбарда к заёмщику и машине</h2>
+
+                    <div class="requirements_con fwn">
+                        <div class="requirements_left">
+                            <img src="css/img/man.png" alt="">
+                            <div class="requirements_content">
+                                <p>1.Гражданин Российской Федерации</p>
+                                <p>2.В возрасте от 18 до 65 лет</p>
+                                <p>3.Являющийся владельцем ТС</p>
+                            </div>
+                        </div>
+
+                        <div class="requirements_right">
+                            <img src="css/img/car1.png" alt="">
+                            <div class="requirements_content">
+                                <p>1.Транспортное средство (далее ТС) не должно являться залоговым или кредитным имуществом (так как кредитное ТС не является собственностью владельца до погашения кредита).</p>
+                                <p>2.ТС не имеет технических повреждений и находится в исправном, рабочем состоянии.</p>
+                                <p>3.Имеется документ, подтверждающий, что ТС состоит на учете в ГИБДД</p>
+                                <p>4.Возраст ТС не старше 25 лет.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="programms">
+                <div class="fixed-container fwn">
+                    <h2>Программы кредитования</h2>
+
+                    <div>
+                        <p>Автоломбард в Москве и Московской области выдает денежные средства под залог любых транспортных средств всех марок, моделей и годов выпуска. Займы выдаются под: легковые, грузовые машины, спецтехнику, мототехнику, коммерческий и водный транспорт.</p>
+
+                        <p>Займ под залог ПТС – это один из видов кредитования в автоломбарде, особенностью которого является то, что автомобиль остается у владельца, а&nbsp;компания оставляет на хранение только ПТС. Срок займа может достигать 48 месяцев, сумма займа 80% от стоимости авто.</p>
+
+                        <p>Наша организация выдает займ под залог автомобиля. На время кредитования транспортное средство остается у компании до момента погашения залогового договора. Под залог своего автомобиля клиент может получить до 95% от рыночной стоимости авто.</p>
+
+                        <p>Услуга рефинансирования подразумевает выкуп автомобиля из другого ломбарда в Москве или Московской области, предоставляя при этом клиенту более выгодные условия кредитования. Услуга особо актуальна для тех людей, которые обратились в автоломбард с более высокими процентными ставками.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="work" class="work">
+                <div class="fixed-container">
+                    <h2>Как мы работаем?</h2>
+
+                    <div class="work_p">
+                        <p>Процедура получения денег под залог авто или ПТС состоит из трех шагов:</p>
+                    </div>
+
+                    <div class="work_con">
+                        <div class="">
+                            <img src="css/img/w1.png" alt="">
+                            <span>1</span>
+                            <p>Оставьте заявку онлайн или по телефону: 8&nbsp;800&nbsp;551-48-80</p>
+                        </div>
+
+                        <div class="">
+                            <img src="css/img/w2.png" alt="">
+                            <span>2</span>
+                            <p>Приезжайте к нам в офис для осмотра автомобиля и заключения договора</p>
+                        </div>
+
+                        <div class="">
+                            <img src="css/img/w3.png" alt="">
+                            <span>3</span>
+                            <p>Получите деньги любым удобным вам способом</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <div class="fixed-container">
+                    <h2>О нас</h2>
+
+                    <div class="fwn">
+                        <p>Автоломбард всегда поможет в трудную минуту. Вы можете обращаться к нам в любое время! Наши сотрудники проведут оценку вашего транспортного средства, учитывая множество параметров, что поможет объективно оценить автомобиль и предложить наиболее выгодные для вас кредитные условия. Наша компания гарантирует юридическую чистоту и прозрачность сделки. Мы работаем по всем существующим ФЗ, что и отличает нашу компанию от серых ломбардов в городе Новосибирск и области. Многолетний опыт работы в сфере займов под залог дает нам возможность предложить минимальные процентные ставки, от 3 % в месяц, и максимально возможную оценку. Вашего транспортного средства.</p>
+
+                        <p>Гибкая система погашения займа, низкие процентные ставки, высокая оценка автомобиля - это те качества, которые позволяют автоломбарду  занимать лидирующие позиции в сегменте займов под залог ПТС и автомобиля.</p>
+
+                        <p>Если вам нужны деньги, но нет времени ждать одобрения кредита, звоните или приезжайте в автоломбард “Автозалог 911”. Вы можете оставить заявку, и наш автоэксперт приедет к Вам для заключения договора. Мы ждем Вашего звонка. Обращайтесь!</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <section class="fixed-container footer_con">
+                <div class="footer_block">
+                    <h2>Наш адрес:</h2>
+                    <div>
+                        <p>Москва</p>
+                        <p>Вокзальная магистраль, 16</p>
+                    </div>
+                </div>
+
+                <div class="footer_block">
+                    <h2>Наши контакты</h2>
+                    <div>
+                        <p><a href="tel:89259111075">Телефон: 89259111075</a></p>
+                        <p><a href="mailto:zakaz@zaimzalogauto.ru">Почта: zakaz@zaimzalogauto.ru</a></p>
+                    </div>
+                </div>
+
+                <div class="footer_block">
+                    <h2>Наши соц-сети</h2>
+                    <div>
+                        <div class="footer_soc">
+                            <a href="#" target="_blank">
+                                <img src="css/img/fa.png" alt="">
+                            </a>
+
+                            <a href="https://vk.com/autozalog911" target="_blank">
+                                <img src="css/img/vk.png" alt="">
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <img src="css/img/in.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>

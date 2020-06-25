@@ -1,0 +1,31 @@
+.footer {
+    width: 100%;
+
+    padding: 100px 0;
+
+    background-color: #000000c7;
+
+    color: #fff;
+}
+
+.footer_con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_con h2 {
+    margin-bottom: 30px;
+
+    font-size: 36px;
+    line-height: 140%;
+}
+
+.footer_con p {
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.footer_soc {
+    display: flex;
+    justify-content: space-between;
+}
